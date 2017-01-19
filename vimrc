@@ -1,0 +1,28 @@
+filetype off
+call plug#begin('~/.vim/plugged/')
+Plug 'vim-scripts/lettuce.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-surround'
+Plug 'sjl/vitality.vim'
+call plug#end()
+
+colorscheme lettuce
+
+syntax on
+set exrc
+set secure
+set ignorecase
+set smartcase
+set nu
+set nocompatible
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set cindent
+set colorcolumn=+1
+"set tw=80
+
+map <C-n> :NERDTreeToggle<CR>
+filetype plugin indent on
