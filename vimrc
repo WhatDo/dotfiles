@@ -1,8 +1,8 @@
 filetype off
 call plug#begin('~/.vim/plugged/')
+Plug 'justinmk/vim-sneak'
 Plug 'vim-scripts/lettuce.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'sjl/vitality.vim'
