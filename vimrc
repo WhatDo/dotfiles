@@ -6,9 +6,10 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 Plug 'sjl/vitality.vim'
+Plug 'dracula/vim'
 call plug#end()
 
-colorscheme lettuce
+colorscheme dracula
 
 syntax on
 set exrc
